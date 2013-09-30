@@ -1,7 +1,7 @@
-.farbtastic {position: absolute; width:195px;height:195px;background:url(pickbg.png);}
-.farbtastic * {position: absolute;cursor: crosshair;}
-.farbtastic, .farbtastic .wheel {width: 195px;height: 195px;}
-.farbtastic .color, .farbtastic .overlay {top: 47px;left: 47px; width: 101px; height: 101px;}
-.farbtastic .wheel {background: url(wheel.png) no-repeat;width: 195px;height: 195px;}
-.farbtastic .overlay {background: url(mask.png) no-repeat;}
-.farbtastic .marker {width: 17px;height: 17px;margin: -8px 0 0 -8px;overflow: hidden;background: url(marker.png) no-repeat;}
+.colorbox {position: absolute; width:195px;height:195px;background:url(pickbg.png);}
+.colorbox * {position: absolute;cursor: crosshair;}
+.colorbox, .colorbox .wheel {width: 195px;height: 195px;}
+.colorbox .color, .colorbox .overlay {top: 47px;left: 47px; width: 101px; height: 101px;}
+.colorbox .wheel {background: url(wheel.png) no-repeat;width: 195px;height: 195px;}
+.colorbox .overlay {background: url(mask.png) no-repeat;}
+.colorbox .marker {width: 17px;height: 17px;margin: -8px 0 0 -8px;overflow: hidden;background: url(marker.png) no-repeat;}
