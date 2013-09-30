@@ -1,6 +1,6 @@
 (function($){
 $.fn.getcolor=function(callback){
-	var $this=$(this);$this.attr('readonly',true);var e=$('<div class="farbtastic"></div>').appendTo(document.body);var pos=$this.offset();e.css({top:pos.top+25,left:pos.left-45}).hide();
+	var $this=$(this);$this.attr('readonly',true);var e=$('<div class="colorbox"></div>').appendTo(document.body);var pos=$this.offset();e.css({top:pos.top+25,left:pos.left-45}).hide();
 	e.html('<div class="color"></div><div class="wheel"></div><div class="overlay"></div><div class="h-marker marker"></div><div class="sl-marker marker"></div>');
 	var reg=/^#[0-9A-F]{6}$/i;if(reg.test($this.val())){$this.css('background',$this.val());}else{$this.val('#ffffff')}
 	var fb={wheel:$('.wheel', e).get(0),radius:84,square:100,width:194,color:'',rgb:'',hsl:'',circleDrag:false};
