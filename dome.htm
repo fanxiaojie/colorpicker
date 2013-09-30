@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ColorPicker</title>
+<style type="text/css">
+body{margin:0;background:#cc0000;}
+input{border:1px solid #666666;}
+input,object{vertical-align:bottom;}
+form{background:#fff;}
+</style>
+ <script type="text/javascript" src="http://code.jquery.com/jquery-1.3.2.min.js"></script>
+ <script type="text/javascript" src="colorpicker.js"></script>
+ <link rel="stylesheet" href="colorpicker.css" type="text/css" />
+ <script type="text/javascript">
+ $(function(){
+	 $(document.frm.bgcolor).getcolor(document.body);
+	 });
+ </script>
+</head>
+<body>
+<h4>ColorPicker</h4>
+<form name="frm" method="post" onsubmit="return false;">
+<p>Page Background：<input type="text" name="bgcolor" size="6" maxlength="4" value="#CC0000" /></p>
+</form>
+</div>
+</body>
+</html>
